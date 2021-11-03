@@ -60,7 +60,7 @@ x=df[['loan_amount','payments','duration']]
 y=df[['status']]
 rf=RandomForestClassifier(criterion='gini')
 mRF=rf.fit(x,y)
-accnt=st.number_input("Please Enter Account Number")
+accnt=st.number_input("Enter Account Number")
 loan_amt=st.number_input("Enter Loan Amount:")
 pay=st.number_input("Enter Payment")
 dur=st.number_input("Enter Duration")
